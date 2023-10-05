@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/edit_products.css" rel="stylesheet" />
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
@@ -34,17 +35,23 @@
     </script>
     <!-- End Google Tag Manager -->
     <!-- Hotjar Tracking Code for https://magicspin.me/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3670325,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-      <!-- End Hotjar -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 3670325,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <!-- End Hotjar -->
 </head>
 
 <body id="page-top">
@@ -131,100 +138,48 @@
         <!-- products-->
         <section class="magicspin-section" id="products">
             <div class="magicspin-section-content">
-                <h2 class="mb-5">products</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <img class="img-fluid mx-auto mb-2" src="assets/img/Cover.JPG" alt="..." />
+                <div>
+                    <h2>Product View </h2>
                 </div>
-                <div class=row>
-                    <div class="d-flex flex-column flex-md-row mb-5">
-                        <div class="col-lg-4 col-md-4">
-                            <img class="img-fluid mx-auto mb-2" src="assets/img/1.JPG" alt="..." />
-                        </div>
-
-                        <div class="col-lg-4 col-md-4">
-                            <img class="img-fluid mx-auto mb-2" src="assets/img/2.JPG" alt="..." />
-                        </div>
-                        <div class="col-lg-4 col-md-4">
-                            <img class="img-fluid mx-auto mb-2" src="assets/img/3.JPG" alt="..." />
-                        </div>
-                    </div>
+                <div class="product-container">
+                    <img src="assets/img/1.JPG" class="product-image" alt="..." />
+                    <h3 class="product-name">Product 1</h3>
+                    <p class="product-price">$10.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <div class=row>
-                    <div class="d-flex flex-column flex-md-row mb-5">
-                        <div class="col-lg-5 col-md-5">
-                            <img class="img-fluid mx-auto mb-2" src="assets/img/4.JPG" alt="..." />
-                        </div>
-                        <div class="col-lg-5 col-md-5">
-                            <img class="img-fluid mx-auto mb-2" src="assets/img/5.JPG" alt="..." />
-                        </div>
-                    </div>
+                <div class="product-container">
+                    <img src="assets/img/2.JPG" class="product-image" alt="..." />
+                    <h3 class="product-name">Product 2</h3>
+                    <p class="product-price">$20.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+                <div class="product-container">
+                    <img src="assets/img/3.JPG" class="product-image" alt="..." />
+                    <h3 class="product-name">Product 3</h3>
+                    <p class="product-price">$30.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+                <div class="product-container">
+                    <img src="assets/img/4.JPG" class="product-image" />
+                    <h3 class="product-name">Product 4</h3>
+                    <p class="product-price">$40.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+                <div class="product-container">
+                    <img src="assets/img/5.JPG" class="product-image" />
+                    <h3 class="product-name">Product 5</h3>
+                    <p class="product-price">$50.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+                <div class="product-container">
+                    <img src="assets/img/6.JPG" class="product-image" />
+                    <h3 class="product-name">Product 6</h3>
+                    <p class="product-price">$60.00</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
             </div>
         </section>
         <hr class="m-0" />
-        <!-- Team-->
-        <section class="magicspin-section" id="team">
-            <div class="magicspin-section-content">
-                <h2 class="mb-5">Team Members</h2>
-                <div class="team-grid">
-                    <div class="container">
-                        <div class="row people">
-                            <div class="col-md-4 col-lg-3 item">
-                                <div class="box" style="background-image:url(assets/img/SAKETH.JPG)">
-                                    <div class="cover">
-                                        <h3 class="name">J SAI SAKETH REDDY</h3>
-                                        <p class="title">DIRECTOR</p>
-                                        <div class="social"><a href="https://www.linkedin.com/in/saisakethj"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-3 item">
-                                <div class="box" style="background-image:url(assets/img/SAITEJA.JPG)">
-                                    <div class="cover">
-                                        <h3 class="name">SAITEJA BHAGYAM</h3>
-                                        <p class="title">Techie & Planner </p>
-                                        <div class="social"><a href="https://www.linkedin.com/in/saitejabhagyam"><i class="fab fa-linkedin-in"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-3 item">
-                                <div class="box" style="background-image:url(assets/img/JAGGU.JPG)">
-                                    <div class="cover">
-                                        <h3 class="name">JAGADISHWAR S</h3>
-                                        <p class="title">CFO</p>
-                                        <div class="social"><a href="https://www.linkedin.com/in/jagadishwar"><i class="fab fa-linkedin-in"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--<div class="row people">
-                                <div class="col-md-4 col-lg-3 item">
-                                    <div class="box" style="background-image:url(assets/img/KAMAL.jfif)">
-                                        <div class="cover">
-                                            <h3 class="name">SAI KAMAL</h3>
-                                            <p class="title">DESIGNER</p>
-                                            <div class="social"><a href="https://www.linkedin.com/in/sai-kamal-14a0701a9"><i class="fab fa-linkedin-in"></i></a></div>
-                                        </div>
-                                    </div>
-                                </div>--!>
-                                <div class="col-md-4 col-lg-3 item">
-                                    <div class="box" style="background-image:url(assets/img/Poojaa.jpg)">
-                                        <div class="cover">
-                                            <h3 class="name">Pooja S Rajput</h3>
-                                            <p class="title">R & D analyst</p>
-                                            <div class="social">
-                                                <a href="#">
-                                                    <i class="fab fa-linkedin-in"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <hr class="m-0" />
         <!-- FQA-->
         <section class="magicspin-section" id="FAQ">
@@ -278,9 +233,8 @@
                 </div>
                 <br>
                 <div class="social-icons">
-                    <h4>Any Query Please Let Us Know</h4>
-                    <a class="social-icon" href="https://forms.gle/AZokjnuFEGErhtB69">
-                        <i class="fa fa-external-link"></i></a>
+                    <h4>Please fill this:</h4>
+                    <iframe frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.in/bsaiteja/form/CustomerInteraction/formperma/s3QQR1xPG9OE3jqdzZ76VJKDDyee7QOA7F4aE74eT4c'></iframe>
                 </div>
                 <br>
                 <div>

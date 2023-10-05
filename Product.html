@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product View</title>
+    <style>
+        .product-container {
+            width: 25%;
+            float: left;
+            margin: 0 1%;
+            padding: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+        
+        .product-image {
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: 200px;
+        }
+        
+        .product-name {
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .product-price {
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .add-to-cart-button {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: none;
+        }
+        
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            width: 500px;
+            padding: 20px;
+        }
+        
+        .modal-close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="product-container">
+        <img src="assets/img/1.JPG" class="product-image" alt="..." />
+        <h3 class="product-name">Product 1</h3>
+        <p class="product-price">$10.00</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+    <div class="product-container">
+        <img src="assets/img/2.JPG" class="product-image" alt="..." />
+        <h3 class="product-name">Product 2</h3>
+        <p class="product-price">$20.00</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+    <div class="product-container">
+        <img src="assets/img/3.JPG" class="product-image" alt="..." />
+        <h3 class="product-name">Product 3</h3>
+        <p class="product-price">$30.00</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+    <div class="product-container">
+        <img src="assets/img/4.JPG" class="product-image" />
+        <h3 class="product-name">Product 4</h3>
+        <p class="product-price">$40.00</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+    <div class="product-container">
+        <img src="assets/img/5.JPG" class="product-image" />
+        <h3 class="product-name">Product 5</h3>
+        <p class="product-price">$50.00</p>
+        <button class="add-to-cart-button">Add to Cart</button>
+    </div>
+
+    <div class="modal">
+        <div class="modal-content">
+            <span class="modal-close-button">&times;</span>
+            <h1>Add to Cart</h1>
+        </div>
+    </div>
